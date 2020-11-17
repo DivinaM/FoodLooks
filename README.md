@@ -103,3 +103,16 @@ Allows User to save and edit recipies
       - (Create/POST) Create a new comment on a post
       - (Delete) Delete existing comment
 >>>>>>> main
+
+
+
+
+
+
+
+Flow Navigation (Screen to Screen)
+
+Forced Log-in -> Account creation if no log in is available
+FeedScreen -> See recipe content
+Profile -> Text field to be modified.
+SearchScreen -> Search for Recipie Content. 

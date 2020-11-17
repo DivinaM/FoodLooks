@@ -116,3 +116,11 @@ Forced Log-in -> Account creation if no log in is available
 FeedScreen -> See recipe content
 Profile -> Text field to be modified.
 SearchScreen -> Search for Recipie Content. 
+
+
+
+
+gif 
+*********
+
+https://raw.githubusercontent.com/jamilleclemon/MyRecipeApp2.0/b863fe8019adb13275befbc711b7b11c6a610c32/FoodLooksApp2.gif

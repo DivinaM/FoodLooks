@@ -38,6 +38,8 @@ FoodLooks is an recipe app that can search for items to cook and users will get 
 Login
 Register - User signs up or logs into their account
 
+https://github.com/DivinaM/FoodLooks/blob/main/FoodLooks.2.gif
+
 ...
 Feed Screen - Allow users to see diffrent recipies 
 

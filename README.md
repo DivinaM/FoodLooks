@@ -45,6 +45,7 @@ Feed Screen - Allow users to see diffrent recipies
 
 Profile Screen
 Allows user to upload recipies , along with pictures.
+https://github.com/DivinaM/FoodLooks/blob/main/FoodLooksApp4.gif
 
 Save Screen
 Allows User to save and edit recipies 

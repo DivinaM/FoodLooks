@@ -89,10 +89,10 @@ FoodLooks Allow indviduals to find a browse food recipies.
             }
          }
          ```
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
+     
    - Create Post Screen
       - (Create/POST) Create a new post object
+       - (POST) Add Pictures 
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
@@ -104,9 +104,8 @@ FoodLooks Allow indviduals to find a browse food recipies.
          }
          ```
       - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
       - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
+      
 >>>>>>> main
 
 

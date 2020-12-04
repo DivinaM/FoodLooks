@@ -1,5 +1,5 @@
 # FoodLooks
-FoodLooks is an recipe app that can search for items to cook and users will get recipes , pictures  or videos back from search. 
+FoodLooks is an recipe app that can browse options for food.
 # Group 5 
 
 ## Table of Contents
@@ -10,47 +10,48 @@ FoodLooks is an recipe app that can search for items to cook and users will get 
 
 ## Overview
 ### Description
-
+FoodLooks Allow indviduals to find a browse food recipies. 
 
 - **Category:** Social Networking / Food
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
 - **Story:** Analyzes users food choices, and connects them to other users with similar choices. The user can search for a particular item to eat or creat anf the searches becomes avalibale to them. 
-
+- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
+- **Habit:** This app could be used as often or unoften as the user wanted depending on what exactly they're looking for.
+- **Scope:** First we would start with displaying recipies and adding our own it could advance to a broader version of a facebook verion of food. 
 . User Stories (Required and Optional)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 2. Screen Archetypes
-Login
-Register - User signs up or logs into their account
-
-https://github.com/DivinaM/FoodLooks/blob/main/FoodLooks.2.gif
-
+*Login
+*Register - User signs up or logs into their account
 ...
-Feed Screen - Allow users to see diffrent recipies 
+*Compose Screen 
+*Camera allows user to take photo of food and and recipe or discription of the food.
 
-Profile Screen
-Allows user to upload recipies , along with pictures.
-https://github.com/DivinaM/FoodLooks/blob/main/FoodLooksApp4.gif
+*Profile Screen
+*Allows user to upload recipies , along with pictures.
+...
+*Explore Screen - Allow you to explore for diffrent recipies. 
+...
+*Feed Screen - Allow users to see diffrent recipies from users
 
-Save Screen
-Allows User to save and edit recipies 
 
-https://github.com/DivinaM/FoodLooks/blob/main/SaveScreen.gif
+
+
+**Tab Navigation** (Tab to Screen)
+
+* Feed Screen
+* Profile
+* Explore
+* Compose 
+
+**Flow Navigation** (Screen to Screen)
+* Forced Log-in -> Account creation if no log in is available
+* Compose  ->  Take Photo and enter description
+* Explore -> Browse Recipies 
+
 
 
 
@@ -62,10 +63,9 @@ https://github.com/DivinaM/FoodLooks/blob/main/SaveScreen.gif
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
    | image         | File     | image that user posts |
    | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
+   
 
 ### Networking
 #### List of network requests by screen
@@ -120,7 +120,7 @@ Flow Navigation (Screen to Screen)
 Forced Log-in -> Account creation if no log in is available
 FeedScreen -> See recipe content
 Profile -> Text field to be modified.
-SearchScreen -> Search for Recipie Content. 
+ 
 
 
 
@@ -128,4 +128,4 @@ SearchScreen -> Search for Recipie Content.
 gif 
 *********
 
-https://raw.githubusercontent.com/jamilleclemon/MyRecipeApp2.0/b863fe8019adb13275befbc711b7b11c6a610c32/FoodLooksApp2.gif
+
